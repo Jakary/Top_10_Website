@@ -1,0 +1,71 @@
+body{
+  background-image:url("troll.jpg");
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: #e58545
+    }
+
+    30% {
+        background-color: #e5ff00
+    }
+
+    60% {
+        background-color: #0feb46
+    }
+
+    90% {
+        background-color: rgb(0, 17, 255)
+    }
+
+    100% {
+        background-color: #ff00ea
+    }
+}
+div{
+  -webkit-animation: bgcolor 5s infinite;
+    animation: bgcolor 5s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+  }
+
+h1{
+  text-align:center;
+  color:rgb(0, 0, 0);
+  text-shadow:2px 2px white;
+  font-family:Marker Felt, fantasy;
+  font-style: italic;
+  font-weight: 900;
+}
+p{
+   text-align:center;
+  color:rgb(0, 0, 0);
+  font-family:Marker Felt, fantasy;
+  font-style: italic;
+  font-weight: 900;
+  font-size:30px;
+  
+}
+img{
+  border-radius:8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border:5px solid black;
+}
+
+
+iframe{
+  border-radius:8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#back{
+  float:left;
+  color:black;
+  text-shadow:2px 2px white;
+}
+
